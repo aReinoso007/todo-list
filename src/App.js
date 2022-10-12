@@ -18,7 +18,7 @@ function App() {
       <TodoSearch />
       <TodoList>
         {toDos.map(todo => (
-          <ToDoItem />
+          <ToDoItem text={todo.text} />
         ))}
       </TodoList>
       <CreateTodoButton />
